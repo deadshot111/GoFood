@@ -3,6 +3,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { useDispatchCart, useCart } from "./ContextReducer";
 
 export default function Card(props) {
+  console.log("i am Satyam Mishra");
   let dispatch = useDispatchCart();
   let data= useCart();
   const priceRef= useRef();
