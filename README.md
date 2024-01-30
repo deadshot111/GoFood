@@ -1,6 +1,50 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+GoFood - Full Stack Food Ordering Website.
+
+GoFood is a full-stack food ordering website built on the MERN stack, allowing users to easily order food online. The website provides user authentication and authorization using BCrypt.js and JSON Web Tokens (JWT). Users can create their accounts, log in securely, and place food orders. Additionally, users can view their previous orders from the "Your Orders" section.
+
+#Features
+User Authentication: Users can create accounts and log in securely using BCrypt.js for password hashing and JWT for authentication.
+Order Placement: Users can browse food items, add them to the cart, and place orders securely.
+Order History: Users can view their previous orders and order details from the "Your Orders" section.
+Responsive Design: The website is designed to be responsive, providing a seamless experience across devices.
+
+#Technologies Used
+MongoDB: NoSQL database used to store user information, food items, and order history.
+Express.js: Backend web framework for handling API requests and routing.
+React: Frontend library for building user interfaces and components.
+Node.js: JavaScript runtime environment for running server-side code.
+BCrypt.js: Library for hashing passwords securely.
+JSON Web Tokens (JWT): Authentication tokens used for user authentication and authorization.
+HTML5 & CSS3: Markup and styling languages for structuring and designing the website.
+Bootstrap or Material-UI: CSS frameworks for responsive and visually appealing design.
+
+#Folder Structures
+GoFood/
+│
+├── backend/        # Backend server code
+│   ├── controllers/    # Route controllers
+│   ├── models/         # Mongoose models
+│   ├── routes/         # Express routes
+│   ├── utils/          # Utility functions
+│   └── server.js       # Express app setup
+│
+├── frontend/       # Frontend React app
+│   ├── public/         # Static assets
+│   └── src/            # Source files
+│       ├── components/    # React components
+│       ├── pages/         # Page components
+│       ├── context/       # React context for state management
+│       ├── hooks/         # Custom React hooks
+│       ├── services/      # API service functions
+│       └── App.js         # Main React component
+│
+├── .gitignore      # Git ignore file
+├── README.md       # Project README file
+└── package.json    # NPM package configuration
+
 
 ## Available Scripts
 
