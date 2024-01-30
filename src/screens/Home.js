@@ -116,7 +116,7 @@ export default function Home() {
 
       <div className="container"> 
       {
-        foodCat!==[]
+        foodCat!==[] 
         ? foodCat.map((data)=>{
           return ( <div className="row mb-3">
           <div key= {data._id} className="fs-3 m-3"> 
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
           <hr/>
           
-          {foodItem !==[]
+          { foodItem !==[]
           ? 
           foodItem.filter((item)=>(item.CategoryName===data.CategoryName)&& (item.name.toLowerCase().includes(search.toLowerCase()))) 
           .map(filterItems=>{
